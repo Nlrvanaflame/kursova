@@ -1,0 +1,72 @@
+/* StandardPage.css */
+
+.standard-page {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #150627;
+  align-items: center; 
+  min-height: 100vh;
+}
+  
+  .main-header {
+  margin-bottom: 16px; 
+  }
+  
+  .placeholder-text {
+  margin-bottom: 32px; 
+  }
+  
+  .top-picks-header {
+  margin-bottom: 24px; 
+  }
+  
+  .top-picks-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px; 
+    justify-content: center;
+    width: 80%; 
+    margin: 0 auto; 
+  }
+
+
+  
+  .pick-item {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  
+  .pick-item img {
+    width: 40%; /* Adjust image width */
+    height: auto;
+    max-height: 350px; /* Adjust the maximum height as needed */
+    margin-bottom: 8px;
+  }
+  
+  .pick-text {
+    width: 60%;
+    text-decoration: underline;
+  }
+ 
+  
+  .browse-all-button {
+    display: block; /* Change to block to center the button */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Center the button horizontally */
+    max-width: 200px; /* Set a maximum width for the button */
+    text-align: center; /* Center the text inside the button */
+  }
+  
+  .browse-all-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  }
